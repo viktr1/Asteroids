@@ -1,8 +1,8 @@
-#include<iostream>
+#include "Game.h"
 
 int main() {
-	printf("cunt");
 
-	system("pause>null");
+	Game game;
+	game.run();
 	return 0;
 }
